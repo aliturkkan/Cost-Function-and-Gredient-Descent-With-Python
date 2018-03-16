@@ -7,8 +7,8 @@ import greDes
 #load dataset
 veri = loadtxt('dataset.txt',delimiter=',')
 
-#dataset's first col = y component
-#dataset's second col = x component
+#dataset's first col = x component
+#dataset's second col = y component
 x = veri[:,0]
 y = veri[:,1]
 
